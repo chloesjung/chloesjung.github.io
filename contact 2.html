@@ -84,19 +84,8 @@
   action="https://formspree.io/f/mgepbpen"
   method="POST"
 >
-  <label>
-    Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
 
-  <!-- your other form fields go here -->
 
-  <button type="submit">Send</button>
-</form>
 
 
           <div class="control-group">
@@ -108,7 +97,7 @@
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-              <label>Email Address</label>
+              <label>Email<input type="text" name="_replyto"></label>
               <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
               <p class="help-block text-danger"></p>
             </div>
@@ -122,7 +111,7 @@
           </div>
           <div class="control-group">
             <div class="form-group floating-label-form-group controls">
-              <label>Message</label>
+              <label>Message<textarea name="message"></textarea></label>
               <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
               <p class="help-block text-danger"></p>
             </div>
